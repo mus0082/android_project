@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TMTask4</string>
+    <string name="page_title">Top Restaurants</string>
+    <string name="darwin_title">Canoe</string>
+    <string name="curie_title">Aloette</string>
+    <string name="einstein_title">Scaramouche</string>
+    <string name="fleming_title">Leña Restaurante</string>
+    <string name="galilei_title">CNtower-Restaurant</string>
+    <string name="plzRateUs">Please rate us</string>
+    <string name="darwin_text">Canoe has two exclusive private dining rooms. These private upscale rooms are perfect for breakfast meetings, product launches, exclusive dinners, intimate celebrations and weddings. </string>
+    <string name="curie_text">Aloette -- which opened in 2017 at the corner of Queen Street and Spadina Avenue -- is the neighbourhood bistro as imagined by the Alo Food Group. Its where our taste for haute cuisine meets cravings for cheeseburgers and lemon meringue pie. Aloette is open daily for lunch and dinner. Walk-ins are encouraged.</string>
+    <string name="einstein_text">Scaramouche offers contemporary cuisine in midtown with panoramic skyline views.
+A long standing Toronto favourite that has been offering excellent dining experiences based on trust, courtesy and consistency.
+We are open from Tuesday-Saturday evenings..</string>
+    <string name="fleming_text">The Vibrant Essence of South American Cooking </string>
+    <string name="galilei_text">Japanese, Seafood, Sushi, Asian, Fusion, Vegetarian Friendly. </string>
+</resources>
+

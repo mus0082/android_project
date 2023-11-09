@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Muhammad_Siddiqui_Task1</string>
+    <string  name="text_Heading">Register</string>
+    <string  name="text_field1">Email</string>
+    <string  name="text_field2">Username</string>
+    <string  name="text_field3">First Name</string>
+    <string  name="text_field4">Last Name</string>
+    <string  name="text_field5">Password</string>
+    <string  name="text_field6">Confirm Password</string>
+    <string  name="button_Text">REGISTER</string>
+
+</resources>

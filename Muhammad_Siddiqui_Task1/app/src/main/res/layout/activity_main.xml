@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BAA3A4A6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Form_Heading"
+        style="@style/font_Size_Colour"
+        android:layout_width="283dp"
+        android:layout_height="55dp"
+        android:background="@drawable/for_border"
+        android:gravity="center"
+        android:text="@string/text_Heading"
+        android:textColor="@color/Dark_Blue"
+        app:layout_constraintBottom_toTopOf="@+id/EmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        style="@style/font_Size_text_field"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/for_border"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:text="@string/text_field1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/FirstName"
+        style="@style/font_Size_text_field"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/for_border"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/text_field3"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/LastName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/LastName"
+        style="@style/font_Size_text_field"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/for_border"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/text_field4"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Password"
+        style="@style/font_Size_text_field"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/for_border"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/text_field5"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/ConfirmPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ConfirmPassword"
+        style="@style/font_Size_text_field"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/for_border"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/text_field6"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/MyPicture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Username"
+        style="@style/font_Size_text_field"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/for_border"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/text_field2"
+        app:layout_constraintBottom_toTopOf="@+id/FirstName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/MyPicture"
+        android:layout_width="317dp"
+        android:layout_height="146dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/for_border"
+        android:src="@drawable/picture"
+        app:layout_constraintBottom_toTopOf="@+id/RegisterButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/RegisterButton"
+        style="@style/font_button_font_size"
+        android:layout_width="383dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="16dp"
+        android:background="#4DABA7B5"
+        android:backgroundTint="#4A8E8A8A"
+        android:text="@string/button_Text"
+        android:textColor="@color/dark_Purple_Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

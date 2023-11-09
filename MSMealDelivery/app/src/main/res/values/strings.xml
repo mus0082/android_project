@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MealDelivery</string>
+    <string name="page_title">MealDelivery</string>
+    <string name="name_hint">Customer Name:</string>
+    <string name="phone_hint">Phone Number:</string>
+    <string name="subsplan_hint">Subscription Plan:</string>
+    <string name="rdmonthly_title">Monthly</string>
+    <string name="rdyearly_title">Yearly</string>
+    <string name="plantype_hint">Plan Type:</string>
+
+    <string name="additionals_hint">Additionals:</string>
+    <string name="adddesigns_title">3L Lemonade</string>
+    <string name="addupdates_title">4L Milk</string>
+    <string name="typeofdesigns_hint">Type of Delivery:</string>
+    <string name="date_hint">Subscription Date:</string>
+    <string name="btn_title">Submit</string>
+
+    <string-array name="monthly_plan_options">
+        <item>Cooked Meal: CAD 20</item>
+        <item>Uncooked Meal: CAD 15</item>
+    </string-array>
+
+    <string-array name="yearly_plan_options">
+        <item>Veggies with Recipe: CAD 110</item>
+        <item>Veggies Only: CAD 163</item>
+    </string-array>
+
+    <string-array name="delivery_types">
+        <item>Store pick-up</item>
+        <item>Community Box</item>
+        <item>Door Step</item>
+    </string-array>
+
+    <!-- Prices for Monthly and Yearly subscriptions -->
+    <string-array name="delivery_prices_monthly">
+        <item>CAD 0</item>    <!-- Store pick-up -->
+        <item>CAD 4 per Month</item>    <!-- Community Box -->
+        <item>CAD 4 per Month</item>    <!-- Door Step -->
+    </string-array>
+
+    <string-array name="delivery_prices_yearly">
+        <item>CAD 0</item>    <!-- Store pick-up -->
+        <item>CAD 22 per Year</item>    <!-- Community Box -->
+        <item>CAD 42 per Year</item>    <!-- Door Step -->
+    </string-array>
+
+</resources>
